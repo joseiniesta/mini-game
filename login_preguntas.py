@@ -43,7 +43,7 @@ def mostrar_pregunta3(nombre_jugador):
 
     def responder(eleccion):
         if eleccion == respuesta_correcta:
-            cursor.execute('UPDATE jugadores SET puntuacion = puntuacion + 10 WHERE nombre ?', (nombre_jugador))
+            cursor.execute('UPDATE jugadores SET puntuacion = puntuacion + 100 WHERE nombre ?', (nombre_jugador))
             conn.commit()
 
     # vamos a mostrar la pregunta con sus posibles respuestas

@@ -22,7 +22,7 @@ conn.commit()
 def mostrar_pregunta(nombre_jugador):
     #creo una nueva ventana
     ventana_pregunta = tk.Tk()
-    ventana_pregunta.title("Pregunts 1")
+    ventana_pregunta.title("PRIMERA PREGUNTA")
     ventana_pregunta.geometry("500x300")
     # creo las preguntas y las espuestas en una variable
     pregunta = '¿Cual es la capital de Portugal?'
